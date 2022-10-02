@@ -9,7 +9,7 @@ class CustomPostType {
 
 	private $post_args;
 
-	private $text_domain = '_s';
+	private $text_domain = 'hellosunshine';
 
 	public function __construct( object $post ) {
 		$this->set_post_args( $post );
